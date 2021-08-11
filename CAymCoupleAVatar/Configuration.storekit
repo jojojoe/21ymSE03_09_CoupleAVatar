@@ -1,0 +1,48 @@
+{
+  "identifier" : "31C62BC0",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "A8232DCB",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.coupame.likigpic.listone",
+      "referenceName" : "1",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "13.99",
+      "familyShareable" : false,
+      "internalID" : "7FEE87CF",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.coupame.likigpic.listeight",
+      "referenceName" : "2",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}

@@ -1,0 +1,87 @@
+
+[
+    {
+        "isPro" : false,
+        "preview": "avatar_1",
+        "thumb" : "avatar_1small",
+        "bigImg" : "avatar_big_1"
+        
+    },
+    {
+        "isPro" : false,
+        "preview": "avatar_2",
+        "thumb" : "avatar_2small",
+        "bigImg" : "avatar_big_2"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_3",
+        "thumb" : "avatar_3small",
+        "bigImg" : "avatar_big_3"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_4",
+        "thumb" : "avatar_4small",
+        "bigImg" : "avatar_big_4"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_5",
+        "thumb" : "avatar_5small",
+        "bigImg" : "avatar_big_5"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_6",
+        "thumb" : "avatar_6small",
+        "bigImg" : "avatar_big_6"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_7",
+        "thumb" : "avatar_7small",
+        "bigImg" : "avatar_big_7"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_8",
+        "thumb" : "avatar_8small",
+        "bigImg" : "avatar_big_8"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_9",
+        "thumb" : "avatar_9small",
+        "bigImg" : "avatar_big_9"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_10",
+        "thumb" : "avatar_10small",
+        "bigImg" : "avatar_big_10"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_11",
+        "thumb" : "avatar_11small",
+        "bigImg" : "avatar_big_11"
+        
+    },
+    {
+        "isPro" : true,
+        "preview": "avatar_12",
+        "thumb" : "avatar_12small",
+        "bigImg" : "avatar_big_12"
+        
+    }
+]
