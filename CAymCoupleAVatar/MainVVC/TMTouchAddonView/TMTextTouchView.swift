@@ -49,7 +49,7 @@ class TMTextTouchView: TouchStuffView {
         setupActionBtns()
         
         setupContentTextLabelWithAttributeString(contentString: attributeString)
-        setupBorderViewWithSize(viewSize: canvasBounds.size, lineColor: UIColor.init(hex: "#000000"))
+        setupBorderViewWithSize(viewSize: canvasBounds.size, lineColor: UIColor.init(hex: "#FFFFFF"))
      }
      
      required init?(coder: NSCoder) {

@@ -31,7 +31,7 @@ enum MCorArsConfig: String {
     case HilighCore_BundlId = "com.coupame.likigpic"
     case HilighCoreCoreLink = "https://icover.top/new/"
     case flyerDevKey = "2nhkNASc2eUJM2U3WAvYHS"
-    case flyerAppID = "1578418353"
+    case flyerAppID = "1581081406"
 }
 let AppName: String = "LovePic"
 let purchaseUrl = ""
@@ -52,7 +52,10 @@ extension AppDelegate: AdjustDelegate {
     }
     func initAdjust() {
         // he /*
-        let ajconfig = ADJConfig(appToken: AdjustKey.AdjustKeyAppToken.rawValue, environment: ADJEnvironmentProduction)
+        var ajconfig = ADJConfig(appToken: AdjustKey.AdjustKeyAppToken.rawValue, environment: ADJEnvironmentProduction)
+        debugOnly {
+            ajconfig = ADJConfig(appToken: AdjustKey.AdjustKeyAppToken.rawValue, environment: ADJEnvironmentSandbox)
+        }
         ajconfig?.delegate = self
         Adjust.appDidLaunch(ajconfig)
         Adjust.trackEvent(ADJEvent(eventToken: AdjustKey.AdjustKeyAppLaunch.rawValue))
